@@ -1,30 +1,33 @@
-# Leonida Resource Index
+# GTA VI Field Tools
 
-Search a curated directory of official pages, community maps and game data.
+**Start with what you want to do in Leonida.** Reconstruct a route from video, challenge a friend to place a screenshot, or time a run. This index brings all 15 repositories together.
 
-## Quick start
+[![A recovered route drawn over the original practice atlas](https://raw.githubusercontent.com/Berserk-hub150/gta6-route-replay/main/demo/replay.gif)](https://github.com/Berserk-hub150/gta6-route-replay)
 
-Open `index.html` for offline search. View the JSON file for machine-readable data.
+*Route Replay on one of its four synthetic benchmark clips. Select the preview to open the project.*
 
-## Using your own material
+## Pick your first project
 
-The browser bundle embeds the records for offline use. After editing the JSON, run `python sync.py` to refresh app.js. Add a descriptive title, category, description and direct HTTPS source for each entry.
+| I want to… | Start here |
+|---|---|
+| Trace a minimap through a video | [Route Replay](https://github.com/Berserk-hub150/gta6-route-replay) · includes a replay viewer and a reproducible benchmark |
+| Make a location challenge for friends | [Leonida Guesser](https://github.com/Berserk-hub150/gta6-leonida-guesser) · six practice rounds or your own screenshot pack |
+| Time a run from visible checkpoint cues | [Split Timer](https://github.com/Berserk-hub150/gta6-split-timer) · manual timer and recorded-video scanner |
+| Plan a route or find a location | [Leonida Atlas](https://github.com/Berserk-hub150/gta6-leonida-atlas) · [Screenshot Locator](https://github.com/Berserk-hub150/gta6-screenshot-locator) · [3D Mapping Math](https://github.com/Berserk-hub150/gta6-mapping-math) |
+| Build a dataset from recorded footage | [Capture Dataset](https://github.com/Berserk-hub150/gta6-capture-dataset) · [Driving Lab](https://github.com/Berserk-hub150/gta6-driving-lab) |
+| Look up source-backed game information | [Region Data Catalog](https://github.com/Berserk-hub150/gta6-data-catalog) · [Cheat Ledger](https://github.com/Berserk-hub150/gta6-cheat-ledger) |
+| Experiment with a standalone game tool | [Event Runtime](https://github.com/Berserk-hub150/gta6-event-runtime) · [Session Lab](https://github.com/Berserk-hub150/gta6-session-lab) · [Replay Menu](https://github.com/Berserk-hub150/gta6-replay-menu) · [Panorama VR](https://github.com/Berserk-hub150/gta6-panorama-vr) |
+
+If you want to find the whole collection again, **star this index**. For a reproducible example to share, the Route Replay README includes the video, atlas and expected positions.
+
+## Search the directory offline
+
+[Download the directory](https://github.com/Berserk-hub150/gta6-resource-index/archive/refs/heads/main.zip), extract it and open `index.html`. Search by name or filter **Mapping** for community cartography resources. The directory also includes official pages and third-party guides.
+
+## Add a resource
+
+Add the title, category, description and a direct HTTPS link to [resources.json](resources.json). Run `python sync.py` to update the embedded browser copy. For a new tool, describe one task a visitor can try immediately.
+
+---
 
 Independent fan project. Grand Theft Auto is a trademark of its respective owners.
-
-## GTA VI projects by Berserk-hub150
-
-- [gta6-route-replay](https://github.com/Berserk-hub150/gta6-route-replay) — Reconstruct a route from a video and a reference map, then scrub the result in a local replay viewer. Four original synthetic captures include ground truth.
-- [gta6-capture-dataset](https://github.com/Berserk-hub150/gta6-capture-dataset) — Extract labelled image frames from GTA VI recordings with source hashes and timestamps in JSON Lines.
-- [gta6-cheat-ledger](https://github.com/Berserk-hub150/gta6-cheat-ledger) — Look up reported GTA VI button combinations and open the evidence behind each entry.
-- [gta6-data-catalog](https://github.com/Berserk-hub150/gta6-data-catalog) — A source-linked collection of six GTA VI regions with validation, search and CSV export.
-- [gta6-driving-lab](https://github.com/Berserk-hub150/gta6-driving-lab) — Train an offline steering estimator on labelled frames from driving footage. A small ridge regression model predicts steering in [-1,1].
-- [gta6-event-runtime](https://github.com/Berserk-hub150/gta6-event-runtime) — Replay ordered events through user-authored scripts. An external scripting-host prototype inspired by ScriptHookVDotNet.
-- [gta6-leonida-atlas](https://github.com/Berserk-hub150/gta6-leonida-atlas) — Explore six named regions, find the nearest pin and build a multi-stop itinerary.
-- [gta6-leonida-guesser](https://github.com/Berserk-hub150/gta6-leonida-guesser) — An offline six-round map-fragment guessing game.
-- [gta6-mapping-math](https://github.com/Berserk-hub150/gta6-mapping-math) — Estimate a landmark’s 3D coordinates from camera rays by least squares.
-- [gta6-panorama-vr](https://github.com/Berserk-hub150/gta6-panorama-vr) — View a 2:1 equirectangular capture with drag controls and optional WebXR headset rendering. Includes an original horizon scene.
-- [gta6-replay-menu](https://github.com/Berserk-hub150/gta6-replay-menu) — An external, configurable HUD for post-run telemetry. Inspired by the menu interaction of YimMenu and YimMenuV2.
-- [gta6-screenshot-locator](https://github.com/Berserk-hub150/gta6-screenshot-locator) — Locate the minimap crop of a screenshot on a user-supplied GTA VI atlas. Returns three spatially distinct candidates, correlation scores and pixel coordinates.
-- [gta6-session-lab](https://github.com/Berserk-hub150/gta6-session-lab) — A standalone multiplayer lobby prototype for experimenting with session state outside GTA VI.
-- [gta6-split-timer](https://github.com/Berserk-hub150/gta6-split-timer) — A manual browser timer with JSON export, plus an offline visual auto-splitter for recorded runs.
