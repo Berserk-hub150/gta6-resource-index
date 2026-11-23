@@ -102,6 +102,12 @@
     "source": "https://github.com/jerryhubrit/gta-6-map-guide"
   },
   {
+    "name": "Vice Keys Leonida Atlas",
+    "status": "Mapping",
+    "detail": "Search for Boone Speedway on the approximate community map, then open the walkthrough to find the separate Speedway Trial start.",
+    "source": "https://getvicekeys.com/atlas"
+  },
+  {
     "name": "gtamaplib",
     "status": "Mapping",
     "detail": "Camera geometry and mapping tools.",
